@@ -17,7 +17,7 @@ export default function AboutPage() {
       </p>
 
       <p className="font-medium">
-        Every bite is baked with love 💗
+        Every bite is baked with love 
       </p>
     </section>
   )

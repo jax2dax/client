@@ -26,7 +26,7 @@ export default function TreatCard({
 
       <div className="p-4 space-y-2">
         <div className="flex justify-between items-center">
-          <h3 className="font-semibold text-lg">{treat.name}</h3>
+          <h3 className="font-bold text-black text-lg">{treat.name}</h3>
           {treat.popular && (
             <span className="bg-pink-500 text-white text-xs px-2 py-1 rounded-full">
               Popular
@@ -34,12 +34,12 @@ export default function TreatCard({
           )}
         </div>
 
-        <p className="text-sm text-gray-500">{treat.ingredients}</p>
+        <p className="text-sm text-black">{treat.ingredients}</p>
 
         <div className="flex gap-2 items-center">
           {treat.salePrice ? (
             <>
-              <span className="line-through text-gray-400">${treat.price}</span>
+              <span className="line-through text-black">${treat.price}</span>
               <span className="text-pink-600 font-bold">${treat.salePrice}</span>
             </>
           ) : (
